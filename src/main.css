@@ -1,0 +1,12 @@
+@tailwind base;
+html {
+    scroll-behavior: smooth;
+  }
+
+@font-face {
+    font-family: 'jawapalsu';
+    src: url('/fonts/jawapalsu.ttf') format('truetype'); /* Sesuaikan path sesuai lokasi font */
+  }
+  
+@tailwind components;
+@tailwind utilities;
